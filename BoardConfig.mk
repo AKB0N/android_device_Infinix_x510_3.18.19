@@ -91,6 +91,10 @@ BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGER_SHOW_PERCENTAGE := true
 
+# GPS
+BOARD_GPS_LIBRARIES := true
+BOARD_MEDIATEK_USES_GPS := true
+
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
 

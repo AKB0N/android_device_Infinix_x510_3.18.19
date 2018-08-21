@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_DEVICE := x510
-PRODUCT_NAME := cm_x510
+PRODUCT_NAME := lineage_x510
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix x510
 PRODUCT_MANUFACTURER := Infinix
@@ -32,5 +32,5 @@ PRODUCT_MANUFACTURER := Infinix
 $(call inherit-product, device/Infinix/x510/device_x510.mk)
 $(call inherit-product-if-exists, vendor/Infinix/x510/device-vendor.mk)
 
-PRODUCT_NAME := cm_x510
+PRODUCT_NAME := lineage_x510
 
